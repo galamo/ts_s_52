@@ -72,4 +72,11 @@ function getUserAge(u: User): number {
 
 const resultFromGetNames = getNames([user, user, user]);
 
+const li = document.createElement("LI");
+li.innerText = getUserAge(user).toString();
+window.document.body.append(li);
+window.document.body.append(li);
+window.document.body.append(li);
+window.document.body.append(li);
+window.document.body.append(li);
 
